@@ -1,0 +1,112 @@
+/* Add your custom CSS styles here */
+.section {
+    padding: 80px 0;
+}
+
+.block {
+    text-align: center;
+}
+
+.block h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.block p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.project {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+/* Add your custom CSS styles here */
+.navbar {
+    padding: 20px 0; /* Increased padding */
+    background-color: #007bff; /* Blue background color */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff !important; /* White text color */
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #fff !important; /* White text color on hover */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* White color for the hamburger icon */
+}
+
+.navbar-toggler {
+    border-color: #fff; /* White border color for the hamburger icon */
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none; /* Remove focus outline */
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 15px 0; /* Adjusted padding for smaller screens */
+    }
+}
+.navbar-custom {
+    background-color: #673ab7;
+}
+
+.navbar-custom .navbar-brand {
+    color: #fff;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+.umaroy{
+    height: 320px;
+    width: 300px;
+    margin-left: 50px;
+}
+#hero{
+    margin-top: 50px;
+}
+.navbar-brand {
+    animation: cubic-bezier(0.215, 0.610, 0.355, 1) 1s infinite alternate;
+    font-size: 32px; /* Adjust font size as needed */
+    font-family: 'Arial Black', sans-serif; /* Use a unique font family */
+}
+
+/* Define the blinking animation */
+@keyframes blink {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: purple; }
+    100% { color: orange; }
+}
+.card-img-top{
+    height: 300px;
+    
+}
+.animate__fadeInDown{
+    margin-bottom: 40px;
+    
+}
+#about{
+    margin-bottom: -120px;
+}
+footer{
+    margin-top: -80px;
+}
